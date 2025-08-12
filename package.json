@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "supertest": "^7.1.4"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  }
+}
